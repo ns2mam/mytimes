@@ -4,4 +4,6 @@ header {
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
+  position: fixed;
+  z-index: 5
 }
