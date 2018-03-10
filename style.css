@@ -4,6 +4,41 @@ header {
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
+  align-items: center;
+  flex-flow: row wrap;
   position: fixed;
   z-index: 5
+}
+
+.logo {
+  padding: 0 auto;
+  border: 1px solid black;
+}
+
+.logo span {
+  align-items: center;
+}
+
+nav {
+/*  display: inline-block; */
+}
+
+main {
+  display: flex;
+  font-family: "Times New Roman";
+}
+
+.column.large {
+  display: flex;
+  width: 630px;
+}
+
+.column.medium {
+  display: flex;
+  width: 300px;
+}
+
+.column.small {
+  display: flex;
+  width: 240px;
 }
