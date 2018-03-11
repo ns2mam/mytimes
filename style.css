@@ -4,12 +4,17 @@ header {
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
+  background-color: white;
+  height: 60px;
   align-items: center;
   flex-flow: row wrap;
   position: fixed;
   z-index: 5
 }
 
+a {
+  color: black;
+}
 .logo {
   padding: 0 auto;
   border: 1px solid black;
@@ -25,20 +30,33 @@ nav {
 
 main {
   display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 60px;
   font-family: "Times New Roman";
+  align-items: stretch;
+  z-index: 3;
 }
 
 .column.large {
   display: flex;
+  margin-right: 100px;
   width: 630px;
 }
 
 .column.medium {
   display: flex;
+  margin-right: 100px;
+  padding: 30px;
   width: 300px;
 }
 
 .column.small {
   display: flex;
+  margin-right: 100px;
   width: 240px;
+}
+
+main div {
+  border: 1px solid black;
 }
