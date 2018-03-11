@@ -18,14 +18,18 @@ a {
   color: black;
 }
 .logo {
-  padding: 0 auto;
+  padding: 0 700px 0 30px;
   border: 1px solid black;
   flex-wrap: wrap;
 }
 
-.logo span {
-  align-items: center;
+.logo img {
+  vertical-align: middle;
 }
+
+/*.logo span {
+  align-items: center;
+}*/
 
 nav {
   /*justify-content: flex-end;*/
