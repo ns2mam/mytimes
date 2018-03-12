@@ -58,6 +58,8 @@ main {
 
 .column {
   display: flex;
+  margin-right: 32px;
+  margin-top: 40px;
 }
 
 .column.large {
