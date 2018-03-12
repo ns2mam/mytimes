@@ -83,6 +83,12 @@ main div {
   border: 1px solid black;
 }
 
+.article {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 #mainstory {
   display: flex;
   background-image: url("./images/img-story-main.png");
