@@ -61,7 +61,7 @@ main {
   position: relative;
   top: 62px;
   font-family: "Times New Roman";
-  align-items: stretch;
+/*  align-items: stretch;*/
   z-index: 3;
 }
 
