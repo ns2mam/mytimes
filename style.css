@@ -11,7 +11,8 @@ header {
   align-items: center;
   flex-flow: row wrap;
   position: fixed;
-  z-index: 5
+  z-index: 5;
+  border-bottom: 1px solid black;
 }
 
 a {
@@ -23,12 +24,12 @@ a {
 /*  flex: 1 3 100px;*/
   flex-grow: 1;
   padding-left: 30px;
-  border: 1px solid black;
+/*  border: 1px solid black;*/
   flex-wrap: wrap;
 }
 
 .logo img {
-  vertical-align: middle;
+  margin-right: 10px;
 }
 
 /*.logo span {
@@ -105,7 +106,7 @@ main {
 }
 
 main div {
-  border: 1px solid black;
+/*  border: 1px solid black;*/
 }
 
 .article {
@@ -116,7 +117,7 @@ main div {
 
 #mainstory {
 /*  display: flex;*/
-  background: url("./images/img-story-main.png");
+    background: url("./images/img-story-main.png");
 /*  background-repeat: no-repeat;*/
   height: 300px;
   font-family: Georgia;
@@ -125,6 +126,10 @@ main div {
   color: white;
   order: 1;
   }
+
+#mainstory span {
+  margin-left: 20px;
+}
 
 #monument {
   order: 2;
@@ -213,6 +218,8 @@ footer {
   font-size: 16px;
   font-weight: bold;
   color: white;
+  padding-right: 30px;
+  border-right: 2px solid white;
 }
 
 footer nav {
@@ -222,4 +229,10 @@ footer nav {
 
 .info {
   display: inline-block;
+}
+
+.imagetext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
